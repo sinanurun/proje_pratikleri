@@ -1,12 +1,20 @@
 Django Kurulumu için
 
 proje kalsörü oluşturup terminal ile içine 
-
   py -m pip install Django 
-
 kodunu yazıyoruz böylece django klasöre kurulmuş olur.
 
+ilk projeyi oluşturmak için 
+  django-admin startproject proje_adi
+
 sunucuyu başlatmak için 
-python manage.py runserver 
+  python manage.py runserver 
 kodunu çalıştırıyoruz.
+
+proje içinde uygulama oluşturmak için
+  py manage.py startapp uygulama_adi
+  
+
+
+
 
